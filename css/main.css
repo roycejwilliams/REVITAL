@@ -79,8 +79,6 @@
 }
 
 
-
-
     /*logo*/
 
     #logo {
@@ -97,7 +95,34 @@
       background: black;
       background-size: 100vw;
     }
+
+    .landing  {
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding: auto;
+    }
     
+    .motto {
+      display: inline-block;
+      margin: auto;
+      padding: auto;
+      width: 100%;
+      animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 3s;
+    opacity: 0;
+    }
+
+
     .ideas {
       position: relative;
       left: 250px;
@@ -118,6 +143,7 @@
     font-size: 20px;
     text-decoration: none;
     white-space: nowrap;
+    
   }
 
   .sign {
@@ -128,7 +154,7 @@
     transform: translate(-50%, -50%);
     letter-spacing: 2;
     left: 50%;
-    top: 3100%;
+    top: 650px;
     font-family: 'Epilogue', sans-serif;
     text-transform: uppercase;
     font-size: 6em;
@@ -138,8 +164,6 @@
       0 -0.5rem 2rem #af796d, 0 0.5rem 3rem #c0644f;
     animation: shine 2s forwards, flicker 3s infinite;
   }
-
-
 
   
   
@@ -181,9 +205,9 @@
     }
     100% {
       color: #ffe6ff;
-      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-        -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-        0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #EB8771,
+      -0.2rem 0.1rem 1rem #6a3d33, 0.2rem 0.1rem 1rem #EB8771,
+      0 -0.5rem 2rem #af796d, 0 0.5rem 3rem #c0644f;
     }
   }
   
@@ -325,11 +349,7 @@
   }
   }
 
-      .landing  {
-        position: relative;
-        justify-content: center;
-        align-items: center;
-      }
+     
 
 
     @keyframes reveal {
@@ -351,19 +371,60 @@
       
     }
 
-    .mySlides {
+    .auto {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 1rem;
+      margin: auto;
+      animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    }
+
+    .mySlides { 
      position: absolute;
      width: 650px;
      left: 26%;
-     top: 20%;
+     top: 80%;
      opacity: 1;
      filter: drop-shadow(0 4px 4px rgb(0, 0, 0));
     }
 
     .mySlides:nth-of-type(4) {
-      left: 28%;
-      top: 100%;
+      left: 30%;
+      top: 150%;
     }
+
+    @keyframes fadeInUp {
+      from {
+          transform: translate3d(0,40px,0)
+      }
+  
+      to {
+          transform: translate3d(0,0,0);
+          opacity: 1
+      }
+  }
+  
+  @-webkit-keyframes fadeInUp {
+      from {
+          transform: translate3d(0,40px,0)
+      }
+  
+      to {
+          transform: translate3d(0,0,0);
+          opacity: 1
+      }
+  }
 
     /* iPads (portrait and landscape) ----------- */
     @media only screen 
@@ -385,7 +446,7 @@
       }
   
       .sign {
-        top: 4500%;
+        top: 200px;
       }
 
       .mySlides {
@@ -410,7 +471,7 @@
       }
 
       .sign {
-        top: 5500%;
+        top: 200px;
       }
 
       .ideas {
@@ -422,11 +483,12 @@
       }
 
       .mySlides {
-        left: 8%;
+        left: 80px;
+        width: 600px;
       }
 
       .mySlides:nth-of-type(4) {
-        left: 10%;
+        left: 100px;
         top: 800%;
       }
     }
@@ -440,8 +502,8 @@
     }
 
     .mySlides:nth-of-type(4) {
-      left: 7%;
-      top: 700%;
+      left: 12%;
+      top: 600%;
     }
 
     .ideas {
@@ -453,7 +515,8 @@
     }
 
     .sign {
-      top: 2200%;
+      top: 200px;
+      font-size: 4rem;
     }
   }
 
@@ -697,22 +760,49 @@
     /*mission-statement*/
     .mission-statement {
       background: black;
-      height: 110vh;
+      height: 100vh;
     }
+
+    .state-container {
+      display: inline-block;
+      padding: auto;
+      margin: auto;
+    }
+
 
     .vector {
       width: 100%;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      opacity: 0;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
     }
 
     .mission-statement p {
       color: white;
       position: relative;
       font-size: 32px;
-      bottom: 50%;
+      bottom: 450px;
       font-family: 'Epilogue';
+      opacity: 0;
       text-transform: uppercase;
       text-align: center;
       filter: drop-shadow(0 4px 4px rgba(125, 125, 125, 0.488));
+      animation-delay: 1s;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      opacity: 0;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
     }
 
     @media only screen 
@@ -754,7 +844,7 @@
     /*services*/
     .services {
       background: black;
-      height: 250vh;
+      height: 150vh;
       display: flex;
       margin: auto;
     padding: auto;
@@ -762,17 +852,26 @@
 
     .vector2 {
       position: absolute;
-      top: 1750px;
+      top: 1650px;
       left: 30.5%;
     }
 
     .support{
       display: inline;
       width: auto;
+      animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
     }
     .support h2 {
-      position: absolute;
-      left: 6%;
+      position: relative;
+      left: 100px;
       font-family: 'Epilogue';
       font-weight: 300;
       color:#ffffff;
@@ -787,8 +886,8 @@
       font-family: 'IBM Plex Mono', monospace;
       color: white;
       position: relative;
-      top: 150px;
-      left: 90px;
+      top: 0px;
+      left: 100px;
       font-size: 28px;
       width: 150%;
       font-weight: 200;
@@ -796,6 +895,16 @@
 
     .creative {
       display: inline;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      opacity: 0;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+      animation-delay: 3s;
     }
 
     .creative h2 {
@@ -814,7 +923,7 @@
     .creative p {
       position: relative;
       font-family: 'IBM Plex Mono', monospace;
-      top: 550px;
+      top: 500px;
       font-weight: 200;
       right: 50px;
       color: white;
@@ -915,7 +1024,7 @@
       .vector2 {
         top: 2010px;
         width: 80%;
-        left: 20%;
+        left: 10%;
       }
 
       .support h2, .creative h2 {
@@ -952,6 +1061,12 @@
  
 
    /* Services */
+
+  .word-span {
+    height: 100vh;
+    background-color: black;
+  }
+
    .vector3 {
     height: 80vh;
     width: 500px;
@@ -959,6 +1074,7 @@
     right: 4%;
     top: 2980px;
     filter: drop-shadow(0 4px 4px black);
+    animation: fade-in;
    }
 
    /* Word Cycle*/
@@ -1023,14 +1139,14 @@
     and (max-device-width : 1024px) {   
     .vector3 {
       top: 3400px;
-      left: 75%;
-      width: 250px;
+      left: 70%;
+      width: 300px;
       overflow-x: hidden;
     }
 
     .words span{ 
-      font-size: 50px;
-      left: 10%;
+      font-size: 40px;
+      left: 5%;
       top: 3800px;
       width: 20%;
     }
@@ -1039,8 +1155,8 @@
   @media all and (min-width: 480px) and (max-width: 768px) { 
     .vector3 {
       top: 3100px;
-      left: 68%;
-      width: 230px;
+      left: 72%;
+      width: 200px;
     }
 
     .words span{ 
