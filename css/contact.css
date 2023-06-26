@@ -11,7 +11,7 @@
   }
 
   .revital {
-    height: 100vh;
+    height: 80vh;
   }
 
   .navbar {
@@ -286,7 +286,6 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
   .overlap-group {
     position: relative;
     justify-self: center;
-    /* align-items: flex-end; */
     display: flex;
     flex-direction: column;
   }
@@ -394,23 +393,7 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-delay: 4s;
   }
 
-  /* .rec-11 {
-    left: -200px;
-    top: 100px;
-    animation: blink 2s linear infinite;
-    transition: ease-in-out;
-    animation-delay: 5s;
-  }
   
-  .rec-12 {
-    left: 700px;
-    top: 400px;
-    animation: blink 2s linear infinite;
-    transition: ease-in-out;
-    animation-delay: 5.5s;
-  } */
-
-
 
   .overlap-group1 {
     left: 12%;
@@ -623,7 +606,26 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 
 
 
+
   /* Mobile */
+
+  .info {
+    display: flex;
+    position: relative;
+    top: 200px;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 4s;
+    opacity: 0;
+  }
+
    .product {
     position: absolute;
     color: white;
@@ -634,13 +636,9 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
     font-size: 1.3rem;
     line-height: 40px;
     left: 15%;
+    
   }
 
-  .connect {
-    font-family:'Inter', sans-serif; 
-    font-weight: bold; 
-    font-size: 1.5rem;
-  }
 
   .contact {
     position: absolute;
@@ -659,6 +657,27 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-direction: alternate;
 }
 
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
 
   @keyframes gradient {
       0% {background-position: 0%}
@@ -796,7 +815,7 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
   .footer {
     position: absolute;
     width: 100%;
-    height: 60px;
+    height: 80px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -812,7 +831,8 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
   
   
   .website_rights {
-    top: 30%;
+    position: relative;
+    top: 50px;
     color: white;
     font-size: 24px;
     font-family: 'Epilogue', sans-serif;
