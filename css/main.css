@@ -118,7 +118,7 @@
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
     opacity: 0;
     }
 
@@ -1580,3 +1580,4 @@
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+

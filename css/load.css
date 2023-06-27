@@ -317,11 +317,23 @@
 
    h2 {
     position: absolute;
-    top: 100%;
+    top: 55%;
+    left: 43%;
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
     color: white;
     letter-spacing: 1px;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 2s;
+    opacity: 0;
   }
 
   #logo {
@@ -339,6 +351,17 @@
     left: 46%;
     display: inline-block;
     transform: translateZ(1px);
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 1s;
+    opacity: 0;
   }
   .lds-circle > div {
     display: inline-block;
@@ -365,6 +388,16 @@
     }
   }
   
+  @keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
  
 
   .footer {
