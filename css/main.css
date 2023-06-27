@@ -379,7 +379,7 @@
       width: 100%;
       padding: 1rem;
       margin: auto;
-      animation-name: fadeInUp;
+      /* animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -387,7 +387,7 @@
     -webkit-animation-fill-mode: both;
     opacity: 0;
     animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp; */
     }
 
     .mySlides { 
@@ -401,7 +401,7 @@
 
     .mySlides:nth-of-type(4) {
       left: 30%;
-      top: 150%;
+      top: 220%;
     }
 
     @keyframes fadeInUp {
@@ -1071,9 +1071,24 @@
     height: 80%;
     width: auto;
     position: absolute;
-    right: 11%;
+    right: 15%;
     top: 2980px;
     filter: drop-shadow(0 4px 4px black);
+   }
+
+
+   .vector3 path {
+    animation: spin 3s ease infinite linear;   
+   }
+
+   @keyframes spin {
+    0% {
+      transform: rotate('0deg');
+    }
+
+    100% {
+      transform: rotate('90deg');
+    }
    }
 
    /* Word Cycle*/
@@ -1556,3 +1571,12 @@
 }
 
 
+.animate-element {
+  opacity: 0;
+  animation: fade-in 1s ease-out forwards;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
