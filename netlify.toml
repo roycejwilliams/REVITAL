@@ -9,7 +9,3 @@
   publish = "public"
   functions = "functions"
 
-[dev]
-  publish = "public"
-  base
-  functions = "functions"
