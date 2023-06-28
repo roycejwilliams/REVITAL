@@ -330,6 +330,15 @@
     opacity: 0;
   }
 
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+    h2 {
+      font-size: 2rem;
+      left: 39%;
+    }
+  }
+
   #logo {
     position: absolute;
     width: 100px;
