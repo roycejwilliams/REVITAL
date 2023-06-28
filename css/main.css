@@ -6,7 +6,6 @@
 }
 
 
-
 ::-webkit-scrollbar {
   width: 5px;
     background-color: black;
@@ -398,9 +397,7 @@
      width: 650px;
      left: 26%;
      top: 80%;
-     opacity: 1;
      filter: drop-shadow(0 4px 4px rgb(0, 0, 0));
-    
     }
 
     .mySlides:nth-of-type(4) {
@@ -431,98 +428,7 @@
   }
 
     /* iPads (portrait and landscape) ----------- */
-    @media only screen 
-    and (min-device-width : 768px) 
-    and (max-device-width : 1024px) {
-      #logo {
-        top: 1%;
-      }
-
-      .revital {
-        height: 100vh;
-        width: auto;
-      }
-  
-      .ideas {
-        left: 100px;
-        top: 800px;
-        width: 80%;
-      }
-  
-      .sign {
-        top: 200px;
-      }
-
-      .mySlides {
-        left: 18%;
-        top: 650%;
-      }
-
-      .mySlides:nth-of-type(4) {
-        left: 22%;
-        top: 1000%;
-      }
-
-      iframe {
-        display: none;
-      }
-    }
-
-    /* 768-480 - tablet */
-    @media all and (min-width: 480px) and (max-width: 768px) { 
-      #logo {
-        top: 1%;
-      }
-
-      .sign {
-        top: 200px;
-      }
-
-      .ideas {
-        left: 0px;
-        top: 800px;
-        width: 100%;
-        font-size: 18px;
-        white-space: wrap;
-      }
-
-      .mySlides {
-        left: 80px;
-        width: 600px;
-      }
-
-      .mySlides:nth-of-type(4) {
-        left: 100px;
-        top: 800%;
-      }
-    }
-
-    /* 480-less    - phone landscape & smaller */
-    @media all and (max-width: 480px) { 
-      .mySlides {
-      left: 8%;
-      width: 400px;
-      top: 500%;
-    }
-
-    .mySlides:nth-of-type(4) {
-      left: 12%;
-      top: 600%;
-    }
-
-    .ideas {
-      left: 0px;
-      top: 600px;
-      width: 100%;
-      font-size: 18px;
-      white-space: wrap;
-    }
-
-    .sign {
-      top: 200px;
-      font-size: 4rem;
-    }
-  }
+    
 
    
 

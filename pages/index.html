@@ -21,7 +21,7 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <script src="/js/logo.js"></script>
+    <script defer src="/js/logo.js"></script>
     <script src="/js/app.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script defer src="/js/swup.js"></script>
@@ -30,25 +30,26 @@
 </head>
 <body>
 
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="/pages/index.html"><img id="logo" src="/images/revital sub logo.png"></a>
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><span></span></label>
+        <label for="active" class="close"></label>
+         <div class="wrapper">
+            <iframe width="500" height="500" scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1634121064&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="display: flex; flex-direction: column; text-align: center; font-size: 32px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: 'Epilogue', sans-serif;font-weight: 400; margin: 1rem 0;"><a style="margin: 1rem 0; text-decoration: none; color: #1eae53;" href="https://soundcloud.com/king_morris99" title="geekedlikeco 🖖🏽" target="_blank" style="color: #1eae53; text-decoration: none;"></a><a href="https://soundcloud.com/king_morris99/sets/revital-concept-p2" title="REVITAL II" target="_blank" style="color: #cccccc; text-decoration: none;"></a></div>        
+            <ul>
+              <li><a href="/pages/index.html">Home</a></li>
+              <li><a href="/pages/team.html">Team</a></li>
+              <li><a href="/pages/work.html">Work</a></li>
+              <li><a href="/pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+     </div>   
+  </nav>
+
   <main id="swup" class="transition-fade">
     <section class="revital">
-      <nav class="navbar">
-        <div class="navbar__container">
-          <a href="/pages/index.html"><img id="logo" src="/images/revital sub logo.png"></a>
-            <input type="checkbox" id="active">
-            <label for="active" class="menu-btn"><span></span></label>
-            <label for="active" class="close"></label>
-             <div class="wrapper">
-                <iframe width="500" height="500" scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1634121064&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="display: flex; flex-direction: column; text-align: center; font-size: 32px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: 'Epilogue', sans-serif;font-weight: 400; margin: 1rem 0;"><a style="margin: 1rem 0; text-decoration: none; color: #1eae53;" href="https://soundcloud.com/king_morris99" title="geekedlikeco 🖖🏽" target="_blank" style="color: #1eae53; text-decoration: none;"></a><a href="https://soundcloud.com/king_morris99/sets/revital-concept-p2" title="REVITAL II" target="_blank" style="color: #cccccc; text-decoration: none;"></a></div>        
-                <ul>
-                  <li><a href="/pages/index.html">Home</a></li>
-                  <li><a href="/pages/team.html">Team</a></li>
-                  <li><a href="/pages/work.html">Work</a></li>
-                  <li><a href="/pages/contact.html">Contact</a></li>
-                </ul>
-            </div>
-         </div>   
-      </nav>
         <div class="landing">
             <div class="auto">
               <img class="mySlides" src="/images/revital sub logo.png" >
@@ -207,7 +208,6 @@
         <img src="/images/revital sub logo.png">
       </div>
     </section>
-
   </main>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

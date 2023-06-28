@@ -149,3 +149,4 @@ function animateOnScroll() {
 
 // Call the function to trigger animations on scroll
 animateOnScroll();
+
