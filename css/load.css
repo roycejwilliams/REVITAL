@@ -339,6 +339,13 @@
     }
   }
 
+  @media only screen 
+  and (max-device-width : 430px) {
+    h2 {
+      left: 30%;
+    }
+  }
+
   #logo {
     position: absolute;
     width: 100px;
@@ -402,6 +409,12 @@
     }
 }
  
+@media only screen 
+  and (max-device-width : 430px) {
+    .lds-circle {
+      left: 40%;
+    }
+  }
 
   .footer {
     position: absolute;

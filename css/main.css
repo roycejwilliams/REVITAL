@@ -462,6 +462,30 @@
     }
   }
 
+  @media only screen 
+  and (max-device-width : 430px) {
+    .mySlides {
+      left: 8%;
+      width: 350px;
+      top: 520%;
+    }
+
+    .mySlides:nth-of-type(4) {
+      top: 520%;
+    }
+
+    .ideas {
+      left: 0px;
+      width: 100%;
+      white-space: wrap;
+      padding: 1rem;
+    } 
+
+    .sign {
+      top: 750px;
+      font-size: 8em;
+    }  
+  }
     
 
    
@@ -737,6 +761,19 @@
       bottom: 450px;
     }
   }
+
+  @media only screen 
+  and (max-device-width : 430px) {
+    
+    .mission-statement {
+      height: 80vh;
+    }
+
+    .mission-statement p {
+      font-size: 18px;
+      padding: 1rem;
+    }
+  }
     
 
     /*services*/
@@ -891,6 +928,47 @@
         right: 50px;
       }
     }
+
+    @media only screen 
+  and (max-device-width : 430px) {
+
+    .services {
+      height: 80vh;
+    }
+
+    .vector2 {
+      width: 100%;
+      left: 2%;
+      display: none;
+    }
+
+    .support {
+      left: 20px;
+    }
+
+    .support h2, .creative h2 {
+      font-size: 28px;
+    }
+
+    .support p, .creative p{ 
+      font-size: 18px;
+   }
+
+   .creative {
+    top: 600px;
+    right: 120px;
+   }
+
+   .support p {
+    width: 180%;
+    line-height: 35px;
+   }
+
+   .creative p {
+    line-height: 35px;
+   }
+
+  }
  
 
    /* Services */
@@ -1024,6 +1102,21 @@
         width: 20%;
       }
     }
+
+    @media only screen 
+  and (max-device-width : 430px) {
+    .word-span {
+      height: 90vh;
+    }
+
+    .vector3 {
+      width: 150px;
+    }
+
+    .words span {
+      font-size: 20px;
+    }
+  }
 
   /*News cycle*/
   .news {
