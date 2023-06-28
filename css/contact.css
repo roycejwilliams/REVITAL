@@ -831,12 +831,11 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
   
   
   .website_rights {
-    top: 30%;
     color: white;
     font-size: 24px;
     font-family: 'Epilogue', sans-serif;
-    position: absolute;
-    left: 2%;
+    position: relative;
+    top: 50px;
   }
 
   

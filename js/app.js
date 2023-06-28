@@ -132,3 +132,8 @@ function animateOnScroll() {
 // Call the function to trigger animations on scroll
 animateOnScroll();
 
+
+// page transitions 
+function loaded() {
+  document.body.classList.add('loaded');
+}

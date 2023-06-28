@@ -362,15 +362,6 @@
         opacity: 1;
       }
     }
-    
-    #sub-logo {
-      margin: 0 1rem;
-      position: absolute;
-      top: 16%;
-      right: 3%;
-      display: flex;
-      
-    }
 
     .auto {
       display: flex;
@@ -380,6 +371,16 @@
       width: 100%;
       padding: 1rem;
       margin: auto;
+      animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    opacity: 0;
     }
 
     .mySlides { 
@@ -417,7 +418,30 @@
       }
   }
 
-    /* iPads (portrait and landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+    .ideas {
+      left: 100px;
+      width: 80%;
+      top: 650px;
+    }
+
+    .sign {
+      top: 850px;
+      font-size: 8em;
+    }
+
+    .mySlides {
+      left: 18%;
+      top: 150%;
+    }
+
+    .mySlides:nth-of-type(4) {
+      left: 20%;
+      top: 350%;
+    }
+  }
     
 
    
@@ -563,24 +587,7 @@
     input[type="checkbox"]{
       display: none;
     }
-    .content{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: -1;
-      text-align: center;
-      width: 100%;
-      color: #202020;
-    }
-    .content .title{
-      font-size: 40px;
-      font-weight: 700;
-    }
-    .content p{
-      font-size: 35px;
-      font-weight: 600;
-    }
+    
     
     #active:checked ~ .wrapper ul li a{
       opacity: 1;
@@ -645,6 +652,7 @@
           display: none;
         }
        } 
+
     /*mission-statement*/
     .mission-statement {
       background: black;
@@ -693,40 +701,22 @@
       -webkit-animation-name: fadeInUp;
     }
 
-    @media only screen 
-    and (min-device-width : 768px) 
-    and (max-device-width : 1024px) {  
-      .mission-statement {
-        height: 70vh;
-      }
+   @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
 
-      .vector {
-        position: relative;
-        top: 60px;
-      }
-
-      .mission-statement p {
-        font-size: 24px;
-        bottom: 40%;
-      }
+    .mission-statement {
+      height: 80vh;
     }
-    
-    @media all and (max-width: 480px) {
-      .mission-statement {
-        height: 70vh;
-      }
 
-      .vector {
-        position: relative;
-        top: 80px;
-        width: 100%;
-      }
-
-      .mission-statement p {
-        font-size: 24px;
-        bottom: 40%;
-      }
+    .vector {
+      position:relative;
+      top: 150px;
     }
+    .mission-statement p {
+      bottom: 300px;
+    }
+  }
     
 
     /*services*/
@@ -746,7 +736,11 @@
 
     .support{
       display: inline;
+      position: relative;
+      justify-content: space-evenly;
+      left: 100px;
       width: auto;
+      margin: 1rem 0;
       animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     animation-duration: 1s;
@@ -759,13 +753,11 @@
     }
     .support h2 {
       position: relative;
-      left: 100px;
       font-family: 'Epilogue';
       font-weight: 300;
       color:#ffffff;
       font-size: 68px;
       width: 50%;
-      line-height: 110%;
       letter-spacing: 2px;
       text-transform: uppercase;
     }
@@ -774,8 +766,6 @@
       font-family: 'IBM Plex Mono', monospace;
       color: white;
       position: relative;
-      top: 0px;
-      left: 100px;
       font-size: 28px;
       width: 150%;
       font-weight: 200;
@@ -783,6 +773,10 @@
 
     .creative {
       display: inline;
+      position: relative;
+      justify-content: space-evenly;
+      right: 100px;
+      top: 500px;
       animation-name: fadeInUp;
       -webkit-animation-name: fadeInUp;
       animation-duration: 1s;
@@ -796,22 +790,16 @@
     }
 
     .creative h2 {
-      position: relative;
-      top: 500px;
-      left: -60px;
       color: #ffffff;
       font-family: 'Epilogue';
       font-size: 68px;
       font-weight: 300;
       text-align: right;
-      width: 30%;
       text-transform: uppercase;
     } 
 
     .creative p {
-      position: relative;
       font-family: 'IBM Plex Mono', monospace;
-      top: 500px;
       font-weight: 200;
       right: 50px;
       color: white;
@@ -825,125 +813,35 @@
     and (min-device-width : 768px) 
     and (max-device-width : 1024px) {
       .services {
-        height: 150vh;
+        height: 100vh;
       }
 
       .vector2 {
         top: 2300px;
-        width: 70%;
-        left: 30%;
+        width: 80%;
+        left: 18%;
       }
 
       .support h2, .creative h2 {
         font-size: 40px;
       }
 
-      .support h2 { 
-        top: 2440px;
-        width: 30%;
-        
-        left: 3%;
+      .support {
+        bottom: 100px;
+        left: 25px;
       }
 
-      .support p {
-        top: 250px;
-        font-size: 28px;
-        left: 35px;
-      }
-
-      .creative h2 {
-        left: -80px;
-        top: 520px;
+      .creative {
+        top: 400px;
       }
 
       .creative p {
-        top: 580px;
-        right: 180px;
         font-size: 28px;
-        width: 120%;
+        right: 50px;
+        width: 100%;
       }
     }
 
-    /* 768-480 - tablet */
-    @media all and (min-width: 480px) and (max-width: 768px) { 
-      .services {
-        height: 120vh;
-      }
-
-      .vector2 {
-        top: 2200px;
-        width: 75%;
-        left: 20%;
-      }
-
-      .support h2, .creative h2 {
-        font-size: 28px;
-      }
-
-      .support h2 { 
-        top: 2420px;
-        width: 30%;
-      }
-
-      .support p {
-        top: 200px;
-        font-size: 24px;
-        left: 30px;
-      }
-
-      .creative h2 {
-        left: -70px;
-        top: 460px;
-        width: 20%;
-      }
-
-      .creative p {
-        top: 480px;
-        font-size: 24px;
-        right: 160px;
-      }
-    }
-
-    
-    @media all and (max-width: 480px) { 
-      .services {
-        height: 80vh;
-      }
-      .vector2 {
-        top: 2010px;
-        width: 80%;
-        left: 10%;
-      }
-
-      .support h2, .creative h2 {
-        font-size: 20px;
-      }
-
-      .support h2 { 
-        left: 3%;
-        top: 2390px;
-        width: 30%;
-      }
-
-      .support p {
-        top: 150px;
-        width: 150%;
-        font-size: 14.5px;
-        left: 15px;
-      }
-
-      .creative h2 {
-        left: -40px;
-        top: 320px;
-        width: 20%;
-      }
-
-      .creative p {
-        top: 330px;
-        font-size: 14px;
-        right: 40px;
-      }
-  }
     
  
  
@@ -959,7 +857,7 @@
     height: 80%;
     width: auto;
     position: absolute;
-    right: 15%;
+    right: 15.5%;
     top: 2980px;
     filter: drop-shadow(0 4px 4px black);
    }
@@ -992,7 +890,7 @@
     font-size: 65px;
     font-family: 'Epilogue';
     left: 8%;
-    top: 3200px;
+    top: 3250px;
 
   }
   .words2{
@@ -1039,51 +937,26 @@
   @media only screen 
     and (min-device-width : 768px) 
     and (max-device-width : 1024px) {   
+
+      .word-span {
+        height: 100vh;
+      }
     .vector3 {
-      top: 3400px;
-      left: 70%;
+      top: 3500px;
+      right: 2%;
       width: 300px;
       overflow-x: hidden;
     }
 
     .words span{ 
-      font-size: 40px;
+      font-size: 50px;
       left: 5%;
-      top: 3800px;
+      top: 4000px;
       width: 20%;
     }
   }
 
-  @media all and (min-width: 480px) and (max-width: 768px) { 
-    .vector3 {
-      top: 3100px;
-      left: 72%;
-      width: 200px;
-    }
-
-    .words span{ 
-      font-size: 30px;
-      left: 10%;
-      top: 3550px;
-      width: 20%;
-    }
-
-  }
-
-  @media all and (max-width: 480px) { 
-    .vector3 {
-      top: 2650px;
-      left: 65%;
-      width: 150px;
-    }
-
-    .words span{ 
-      font-size: 18.5px;
-      left: 8%;
-      top: 3150px;
-      width: 20%;
-    }
-  }
+  
 
  
 
@@ -1436,26 +1309,13 @@
   align-items: center;
 }
 
-@media (max-width: 1024px) {
-  .footer-content {
-    position: relative;
-    top: 35px;
-    }
-}
-
-.footer-content img {
-  position: absolute;
-  width: 100px;
-  height: 80px;
-  right: 10%;
-}
 
 .website_rights {
-  color: white;
-  font-size: 24px;
-  font-family: 'Epilogue', sans-serif;
-  position: absolute;
-  left: 10%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Epilogue', sans-serif;
+    position: relative;
+    top: 50px;
 }
 
 
@@ -1469,3 +1329,18 @@
   100% { opacity: 1; }
 }
 
+.content {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: all 1s ease;
+}
+
+.content {
+  transition-delay: 0.5s;
+}
+
+.loaded .header,
+.loaded .content {
+  opacity: 1;
+  transform: translateX(0);
+}

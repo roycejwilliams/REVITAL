@@ -66,18 +66,12 @@
   
   
       .revital {
-        height: 100vh;
+        height: 90vh;
         width: auto;
         background: black;
-        
-        background-size: 100vw;
-      }
+            }
       
-        .landing  {
-          position: relative;
-          justify-content: center;
-          align-items: center;
-        }
+        
   
   
       @keyframes reveal {
@@ -419,10 +413,9 @@
   
   
   .website_rights {
-    top: 50%;
     color: white;
     font-size: 24px;
     font-family: 'Epilogue', sans-serif;
-    position: absolute;
-    left: 2%;
+    position: relative;
+    top: 50px;
   }
