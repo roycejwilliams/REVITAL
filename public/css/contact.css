@@ -204,6 +204,7 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
     height: 10%;
     margin: 50px 0;
   }
+  
   .wrapper ul li a{
     font-family: 'Space Mono', monospace;
     text-decoration: none;
