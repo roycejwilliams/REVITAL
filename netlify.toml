@@ -10,7 +10,6 @@
 
 [dev]
   publish = "public"
-  functions = "functions"
 
 
  
