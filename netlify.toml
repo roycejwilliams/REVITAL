@@ -2,7 +2,3 @@
     from ="/public/pages/index.html"
     to = "/public/pages/*"
     status = 200
-
-[build]
-  command = "npm run build"
-  publish = "/public/pages/*"
