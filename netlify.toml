@@ -1,0 +1,16 @@
+[[redirects]]
+    from ="/*"
+    to = "/index.html"
+    status = 200
+
+
+[build]
+  command = "npm run"
+  publish = "public"
+
+[dev]
+  publish = "public"
+  functions = "functions"
+
+
+ 
