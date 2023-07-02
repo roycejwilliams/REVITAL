@@ -5,5 +5,10 @@
   },
   "devDependencies": {
     "netlify-cli": "^15.6.0"
+  },
+  "scripts": {
+    "build": "npm run build"
   }
 }
+
+
