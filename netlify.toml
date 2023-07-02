@@ -1,4 +1,8 @@
 [[redirects]]
-    from ="/public/pages/index.html"
-    to = "/public/pages/*"
+    from ="/*"
+    to = "/*"
     status = 200
+
+[build]
+  command = "npm run build"
+  publish = "public"
