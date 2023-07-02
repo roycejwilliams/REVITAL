@@ -1,0 +1,4 @@
+[[redirects]]
+    from ="/public/pages/index.html"
+    to = "/public/pages/*"
+    status = 200
