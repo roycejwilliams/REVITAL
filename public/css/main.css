@@ -1062,6 +1062,19 @@
     opacity:0;
   }
 
+  .dna {
+    animation: rotate 3s linear infinite;
+  }
+
+  /* @keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+} */
+
   @media only screen 
     and (min-device-width : 768px) 
     and (max-device-width : 1024px) {   
