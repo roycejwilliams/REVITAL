@@ -770,9 +770,7 @@
 
     .vector2 {
       position: absolute;
-      top: 1650px;
       left: 30.5%;
-      stroke-dasharray: 10;
     }
 
     .path {
@@ -793,21 +791,11 @@
       display: inline;
       position: relative;
       justify-content: space-evenly;
+      top: 80px;
       left: 100px;
-      width: auto;
-      margin: 1rem 0;
-      animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    opacity: 0;
-    animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
+      width: 100%;
     }
     .support h2 {
-      position: relative;
       font-family: 'Epilogue';
       font-weight: 300;
       color:#ffffff;
@@ -819,10 +807,9 @@
 
     .support p {
       font-family: 'IBM Plex Mono', monospace;
-      color: white;
-      position: relative;
-      font-size: 28px;
       width: 150%;
+      color: white;
+      font-size: 28px;
       font-weight: 200;
     }
 
@@ -830,18 +817,8 @@
       display: inline;
       position: relative;
       justify-content: space-evenly;
-      right: 100px;
-      top: 500px;
-      animation-name: fadeInUp;
-      -webkit-animation-name: fadeInUp;
-      animation-duration: 1s;
-      animation-fill-mode: both;
-      -webkit-animation-duration: 1s;
-      -webkit-animation-fill-mode: both;
-      opacity: 0;
-      animation-name: fadeInUp;
-      -webkit-animation-name: fadeInUp;
-      animation-delay: 3s;
+      right: 50px;
+      top: 580px;
     }
 
     .creative h2 {
@@ -856,10 +833,10 @@
     .creative p {
       font-family: 'IBM Plex Mono', monospace;
       font-weight: 200;
-      right: 50px;
+      width: 100%;
+      text-align: right;
       color: white;
       font-size: 28px;
-      text-align: right;
     }
 
     
@@ -870,9 +847,9 @@
       }
 
       .vector2 {
-        /* top: 2600px;
+        top: 2600px;
         width: 80%;
-        left: 18%; */
+        left: 18%;
       }
 
       .support h2, .creative h2 {
@@ -884,8 +861,12 @@
         left: 25px;
       }
 
+      .support {
+        width: 150%;
+      }
+
       .creative {
-        top: 575px;
+        top: 500px;
       }
 
       .creative p {
