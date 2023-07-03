@@ -760,7 +760,8 @@
       top: 100px;
     }
     .mission-statement p {
-      bottom: 300px;
+      bottom: 350px;
+      padding: 1rem;
     }
   }
 
