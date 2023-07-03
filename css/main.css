@@ -757,10 +757,10 @@
 
     .vector {
       position:relative;
-      top: 0px;
+      top: 100px;
     }
     .mission-statement p {
-      bottom: 450px;
+      bottom: 300px;
     }
   }
 
