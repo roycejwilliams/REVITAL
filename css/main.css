@@ -851,7 +851,7 @@
 
     @media (max-width : 1024px) {
       .services {
-        height: 120vh;
+        height: 100vh;
       }
 
       .vector2-container {
@@ -869,7 +869,7 @@
       .support p, .creative p {
         font-size: 26px;
       }
-      
+
 
     }
 
