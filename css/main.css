@@ -769,7 +769,7 @@
   and (max-device-width : 430px) {
     
     .mission-statement {
-      height: 80vh;
+      height: 100vh;
     }
 
     .mission-statement p {
