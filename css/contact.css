@@ -278,6 +278,7 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
       width: 400px;
       height: 400px;
       left: 10%;
+      display: none;
     }
   }
 

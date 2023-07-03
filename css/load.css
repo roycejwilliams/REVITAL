@@ -274,6 +274,7 @@
           width: 400px;
           height: 400px;
           left: 10%;
+          display: none;
         }
       }
 
