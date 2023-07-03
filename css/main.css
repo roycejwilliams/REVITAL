@@ -854,7 +854,8 @@
         height: 120vh;
       }
 
-      .vector2 {
+      .vector2-container {
+        right: 100px;
       }
 
       .support h2, .creative h2 {
@@ -862,11 +863,11 @@
       }
 
       .creative {
-        right: 600px;
+        right: 900px;
       }
 
       .support {
-        left: 50px;
+        left: 20px;
       }
 
       .support p, .creative p {
