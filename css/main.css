@@ -445,7 +445,7 @@
 
   @media (max-width : 768px) {
     .mySlides {
-      left: 8%;
+      left: 0%;
     }
 
     .mySlides:nth-of-type(4) {
