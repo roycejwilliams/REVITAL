@@ -1138,7 +1138,7 @@
     font-weight: 300;
     text-transform: uppercase;
     font-size: 3rem;
-    margin: none;
+    margin: 1rem;
   }
 
   input[type=radio] {
@@ -1343,9 +1343,11 @@
      left: 380px;
     }
 
-    .latest-news {
-      margin-top: 2rem;
+    .news h3 {
+      font-size: 2rem;
+      margin-top: 3rem;
     }
+    
   }
 
 
