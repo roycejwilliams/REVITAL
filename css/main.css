@@ -1052,12 +1052,8 @@
         top: 100px;
       }
 
-      .words {
-        position: relative;
-        top: 100px;
-      }
-
     .words span{ 
+      top: 4480px;
       font-size: 50px;
     }
   }
