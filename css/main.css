@@ -865,13 +865,17 @@
 
       .support {
         left: 20px;
-        top: 50px;
+        top: 80px;
       }
 
       .support p, .creative p {
         font-size: 26px;
       }
 
+      .creative {
+        top: 60px;
+        right: 600px;
+      }
 
     }
 
