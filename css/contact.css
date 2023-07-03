@@ -262,22 +262,24 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
   }
 
   @media only screen 
-      and (min-device-width : 768px) 
-      and (max-device-width : 1024px) { 
-        .wrapper ul {
-          top: 65%; 
-          left: 75%; 
-           transform: translate(-50%, -50%);
-        }
-      
-        .wrapper ul li a{ 
-          font-size: 50px;
-        }
-    
-        iframe  {
-          display: none;
-        }
-      }
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) { 
+    .wrapper ul {
+      top: 60%; 
+      left: 70%; 
+      transform: translate(-50%, -50%);
+    }
+  
+    .wrapper ul li a{ 
+      font-size: 50px;
+    }
+
+    iframe  {
+      width: 400px;
+      height: 400px;
+      left: 10%;
+    }
+  }
 
        @media all and (min-width: 480px) and (max-width: 768px) {
         .wrapper ul {
