@@ -752,7 +752,7 @@
   and (max-device-width : 1024px) {
 
     .mission-statement {
-      height: 80vh;
+      height: 100vh;
     }
 
     .vector {
@@ -769,7 +769,7 @@
   and (max-device-width : 430px) {
     
     .mission-statement {
-      height: 100vh;
+      height: 80vh;
     }
 
     .mission-statement p {
