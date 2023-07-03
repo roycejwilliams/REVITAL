@@ -370,9 +370,8 @@
       position: relative;
       justify-content: center;
       align-items: center;
+      top: 250px;
       width: 100%;
-      padding: 1rem;
-      margin: auto;
       animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     animation-duration: 1s;
@@ -386,17 +385,15 @@
     }
 
     .mySlides { 
-     position: absolute;
+    position: absolute;
      width: 650px;
-     left: 26%;
-     top: 80%;
      filter: drop-shadow(0 4px 4px rgb(0, 0, 0));
     }
 
-    .mySlides:nth-of-type(4) {
+    /* .mySlides:nth-of-type(4) {
       left: 30%;
       top: 220%;
-    }
+    } */
 
     @keyframes fadeInUp {
       from {
@@ -433,14 +430,8 @@
       font-size: 8em;
     }
 
-    .mySlides {
-      left: 15%;
-      top: 150%;
-    }
-
-    .mySlides:nth-of-type(4) {
-      left: 15%;
-      top: 350%;
+    .auto {
+      top: 300px;
     }
   }
 
