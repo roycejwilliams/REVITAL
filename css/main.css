@@ -420,9 +420,7 @@
       }
   }
 
-  @media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px) {
+  @media (max-width : 1024px) {
     .ideas {
       left: 100px;
       width: 80%;
@@ -430,12 +428,12 @@
     }
 
     .sign {
-      top: 850px;
+      top: 800px;
       font-size: 8em;
     }
 
     .mySlides {
-      left: 15%;
+      left: 20%;
       top: 150%;
     }
 
@@ -445,9 +443,7 @@
     }
   }
 
-  @media only screen 
-  and (min-device-width : 430px) 
-  and (max-device-width : 768px) {
+  @media (max-width : 768px) {
     .mySlides {
       left: 8%;
     }
@@ -464,8 +460,7 @@
     }
   }
 
-  @media only screen 
-  and (max-device-width : 430px) {
+  @media (max-width : 430px) {
     .mySlides {
       left: 8%;
       width: 350px;
@@ -747,9 +742,7 @@
       -webkit-animation-name: fadeInUp;
     }
 
-   @media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px) {
+   @media (max-width : 1024px) {
 
     .mission-statement {
       height: 100vh;
@@ -757,10 +750,10 @@
 
     .vector {
       position:relative;
-      top: 100px;
+      top: 0px;
     }
     .mission-statement p {
-      bottom: 350px;
+      bottom: 0px;
       padding: 1rem;
     }
   }
@@ -884,17 +877,15 @@
 
     
 
-    @media only screen 
-    and (min-device-width : 768px) 
-    and (max-device-width : 1024px) {
+    @media (max-width : 1024px) {
       .services {
         height: 100vh;
       }
 
       .vector2 {
-        top: 2500px;
+        /* top: 2600px;
         width: 80%;
-        left: 18%;
+        left: 18%; */
       }
 
       .support h2, .creative h2 {
@@ -902,7 +893,7 @@
       }
 
       .support {
-        top: 120px;
+        top: -20px;
         left: 25px;
       }
 
