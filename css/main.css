@@ -1080,7 +1080,7 @@
         height: 100vh;
       }
     .vector3 {
-      top: 3670px;
+      top: 3750px;
       right: 2%;
       width: 300px;
       overflow-x: hidden;
@@ -1089,7 +1089,7 @@
     .words span{ 
       font-size: 50px;
       left: 5%;
-      top: 4150px;
+      top: 4250px;
       width: 20%;
     }
   }
