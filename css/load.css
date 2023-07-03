@@ -274,41 +274,10 @@
           width: 400px;
           height: 400px;
           left: 10%;
-          display: none;
         }
       }
 
-       @media all and (min-width: 480px) and (max-width: 768px) {
-        .wrapper ul {
-          top: 65%; 
-          left: 75%;  
-           transform: translate(-50%, -50%); 
-        }
-      
-        .wrapper ul li a{ 
-          font-size: 40px;
-        }
-    
-        iframe  {
-          display: none;
-        }
-      }
-    
-       @media all and (max-width: 480px) {
-        .wrapper ul {
-          top: 65%; 
-          left: 75%;  
-           transform: translate(-50%, -50%); 
-        }
-      
-        .wrapper ul li a{ 
-          font-size: 30px;
-        }
-    
-        iframe  {
-          display: none;
-        }
-       } 
+       
      
       
 
@@ -338,7 +307,7 @@
   and (max-device-width : 1024px) {
     h2 {
       font-size: 2rem;
-      left: 39%;
+      left: 38%;
     }
   }
 

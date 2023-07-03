@@ -282,37 +282,6 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
     }
   }
 
-       @media all and (min-width: 480px) and (max-width: 768px) {
-        .wrapper ul {
-          top: 65%; 
-          left: 75%;  
-           transform: translate(-50%, -50%); 
-        }
-      
-        .wrapper ul li a{ 
-          font-size: 40px;
-        }
-    
-        iframe  {
-          display: none;
-        }
-      }
-    
-       @media all and (max-width: 480px) {
-        .wrapper ul {
-          top: 65%; 
-          left: 75%;  
-           transform: translate(-50%, -50%); 
-        }
-      
-        .wrapper ul li a{ 
-          font-size: 30px;
-        }
-    
-        iframe  {
-          display: none;
-        }
-       } 
 
   
   #active:checked ~ .wrapper ul li a{
