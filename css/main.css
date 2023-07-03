@@ -862,10 +862,6 @@
         font-size: 40px;
       }
 
-      .creative {
-        right: 900px;
-      }
-
       .support {
         left: 20px;
       }
@@ -873,6 +869,7 @@
       .support p, .creative p {
         font-size: 26px;
       }
+      
 
     }
 
