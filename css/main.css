@@ -855,7 +855,8 @@
       }
 
       .vector2-container {
-        right: 100px;
+        right: 80px;
+        top: 100px;
       }
 
       .support h2, .creative h2 {
@@ -864,6 +865,7 @@
 
       .support {
         left: 20px;
+        top: 50px;
       }
 
       .support p, .creative p {
