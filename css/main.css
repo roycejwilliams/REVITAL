@@ -694,6 +694,9 @@
 
     .state-container {
       display: inline-block;
+      position: relative;
+      justify-content: center;
+      align-items: center;
       padding: auto;
       margin: auto;
     }
@@ -736,18 +739,7 @@
 
    @media (max-width : 1024px) {
 
-    .mission-statement {
-      height: 100vh;
-    }
-
-    .vector {
-      position:relative;
-      top: 200px;
-    }
-    .mission-statement p {
-      bottom: 250px;
-      padding: 1rem;
-    }
+    
   }
 
   @media only screen 
