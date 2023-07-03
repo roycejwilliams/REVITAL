@@ -791,6 +791,21 @@
       position: absolute;
       top: 1650px;
       left: 30.5%;
+      stroke-dasharray: 10;
+    }
+
+    .path {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: dash 3s linear forwards;
+    }
+    @keyframes dash {
+      from {
+        stroke-dashoffset: 1000;
+        }
+      to {
+        stroke-dashoffset: 0;
+      }
     }
 
     .support{
