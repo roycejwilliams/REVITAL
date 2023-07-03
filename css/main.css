@@ -165,7 +165,7 @@
     text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #EB8771,
       -0.2rem 0.1rem 1rem #6a3d33, 0.2rem 0.1rem 1rem #EB8771,
       0 -0.5rem 2rem #af796d, 0 0.5rem 3rem #c0644f;
-    animation: shine 2s forwards, flicker 3s infinite;
+    animation: glow 2s forwards, flicker 3s infinite;
   }
 
   
@@ -425,6 +425,7 @@
       left: 100px;
       width: 80%;
       top: 650px;
+      white-space: nowrap;
     }
 
     .sign {
@@ -438,7 +439,7 @@
     }
 
     .mySlides:nth-of-type(4) {
-      left: 20%;
+      left: 15%;
       top: 350%;
     }
   }
