@@ -901,12 +901,12 @@
       }
 
       .support {
-        bottom: 0px;
+        top: 0px;
         left: 25px;
       }
 
       .creative {
-        top: 500px;
+        top: 600px;
       }
 
       .creative p {
