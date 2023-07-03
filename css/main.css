@@ -433,7 +433,7 @@
     }
 
     .mySlides {
-      left: 20%;
+      left: 15%;
       top: 150%;
     }
 
@@ -445,7 +445,7 @@
 
   @media (max-width : 768px) {
     .mySlides {
-      left: 0%;
+      left: 5%;
     }
 
     .mySlides:nth-of-type(4) {
