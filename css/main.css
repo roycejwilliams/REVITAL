@@ -901,12 +901,12 @@
       }
 
       .support {
-        bottom: 100px;
+        bottom: 0px;
         left: 25px;
       }
 
       .creative {
-        top: 400px;
+        top: 500px;
       }
 
       .creative p {
@@ -1413,7 +1413,7 @@
       transform: translateY(0);
     }
     25%,45% {
-      transform: translateY(-64px);
+      transform: translateY(-65px);
     }
     50%,70% {
       transform: translateY(-150px);
