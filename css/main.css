@@ -201,7 +201,7 @@
     animation: shine 2s forwards, blink 10s 1s infinite;
   }
   
-  @keyframes shine {
+  @keyframes glow {
     0% {
       color: #6b1839;
       text-shadow: none;
