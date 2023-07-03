@@ -864,6 +864,15 @@
       .creative {
         right: 600px;
       }
+
+      .support {
+        left: 50px;
+      }
+
+      .support p, .creative p {
+        font-size: 26px;
+      }
+
     }
 
     
