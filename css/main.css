@@ -367,7 +367,7 @@
 
     .auto {
       display: flex;
-      position: relative;
+      position: absolute;
       justify-content: center;
       align-items: center;
       top: 250px;
