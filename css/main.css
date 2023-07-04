@@ -783,7 +783,7 @@
 
      @media (max-width : 1024px) {
       .services {
-        height: 100vh;
+        height: 80vh;
       }
 
       .vector2 {
