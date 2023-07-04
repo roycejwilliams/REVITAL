@@ -435,11 +435,6 @@
     }
   }
 
-    
-
-   
-
-
     /*menu*/
 
     .wrapper{
@@ -726,118 +721,83 @@
     .services {
       background: black;
       height: 150vh;
-      display: flex;
+      display: inline-block;
       margin: auto;
     padding: auto;
     }
 
     .vector2 {
+      position: absolute;
       width: 800px;
       height: 1200px;
+      left: 28%;
+      resize: both;
     }
 
-    .vector2-container {
+
+
+     .support {
+      color: white;
+      width: 60%;
       position: relative;
-      justify-content: center;
-      align-content: center;
-      width: 800px;
-      height: 1200px;
-      resize: both;
+      margin: 1rem;
      }
 
-    .path {
-      stroke-dasharray: 1000;
-      stroke-dashoffset: 1000;
-      animation: dash 3s linear forwards;
-    }
-    @keyframes dash {
-      from {
-        stroke-dashoffset: 1000;
-        }
-      to {
-        stroke-dashoffset: 0;
-      }
-    }
-
-    .support{
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      top: 0px;
-      left: 100px;
-      width: auto;
-    }
-    .support h2 {
+     .support h2 {
+      font-size: 60px;
       font-family: 'Epilogue';
-      font-weight: 300;
-      color:#ffffff;
-      font-size: 68px;
-      letter-spacing: 2px;
       text-transform: uppercase;
-    }
+      font-weight: 300;
+      width: 50%;
+     }
 
-    .support p {
-      font-family: 'IBM Plex Mono', monospace;
-      width: 200%;
-      color: white;
+     .support p {
       font-size: 28px;
-      font-weight: 200;
-    }
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 300;
+     }
 
-    .creative {
-      display: flex;
-      flex-direction: column;
+     .creative {
+      color: white;
+      text-align: right;
       position: relative;
-      right: 700px;
-      top: 500px;
-    }
+      width: 60%;
+      top: 200px;
+      float: right;
+      margin: 1rem;
+     }
 
-    .creative h2 {
-      color: #ffffff;
+     .creative h2 {
+      font-size: 60px;
       font-family: 'Epilogue';
-      font-size: 68px;
-      font-weight: 300;
-      text-align: right;
-      text-transform: uppercase;
-    } 
+    text-transform: uppercase;
+    font-weight: 300;
+     }
 
-    .creative p {
-      font-family: 'IBM Plex Mono', monospace;
-      font-weight: 200;
-      width: 100%;
-      text-align: right;
-      color: white;
+     .creative p {
       font-size: 28px;
-    }
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 300;
+     }
 
-    
 
-    @media (max-width : 1024px) {
+     
+
+     @media (max-width : 1024px) {
       .services {
         height: 100vh;
       }
 
-      .vector2-container {
-        right: 80px;
-        top: 100px;
+      .vector2 {
+        left: 20%;
       }
 
       .support h2, .creative h2 {
         font-size: 40px;
       }
 
-      .support {
-        left: 20px;
-        top: 80px;
-      }
-
       .support p, .creative p {
         font-size: 26px;
-      }
-
-      .creative {
-        right: 670px;
-        top: 575px;
       }
 
     }
@@ -875,43 +835,9 @@
     @media only screen 
   and (max-device-width : 430px) {
 
-    .services {
-      height: 80vh;
-    }
+    
 
-    .vector2 {
-      width: 100%;
-      left: 2%;
-      display: none;
-    }
-
-    .support {
-      left: 20px;
-    }
-
-    .support h2, .creative h2 {
-      font-size: 28px;
-    }
-
-    .support p, .creative p{ 
-      font-size: 18px;
-   }
-
-   .creative {
-    top: 600px;
-    right: 120px;
-   }
-
-   .support p {
-    width: 180%;
-    line-height: 35px;
-   }
-
-   .creative p {
-    line-height: 35px;
-   }
-
-  }
+  } 
  
 
    /* Services */
@@ -954,8 +880,8 @@
     font-size: 65px;
     font-family: 'Epilogue';
     text-transform: uppercase;
-    left: 8%;
-    top: 3250px;
+    left: 5%;
+    top: 2500px;
 
   }
   .words2{
@@ -1016,7 +942,7 @@
       }
 
     .words span{ 
-      top: 4800px;
+      top: 3250px;
       font-size: 50px;
     }
   }
