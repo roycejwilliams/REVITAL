@@ -32,45 +32,50 @@
   
   
   /*menu*/
-  .navbar {
-    background-color: rgb(0, 0, 0);
-    height: 80px;
-    display: flex; 
-    position: relative;
-    justify-content: center; 
-    align-items: center;
-    z-index: 999; 
-  }
-  
-  .navbar__container {
-    display: flex;
-    position: fixed;
-    background-color: rgb(0, 0, 0);
-    height: 80px;
-      justify-content: space-between;
-      z-index: 1;
-      width: 100%;
-      margin: 0 auto;
-      padding: 0 50px;
-  }
-  
-  
-      /*logo*/
-  
-      #logo {
-        position: fixed;
-        width: 200px;
-        top: 2%;
-        left: 1%;
-      }
-  
-  
-      .revital {
-        height: 90vh;
-        width: auto;
-        background: black;
-            }
-      
+  /*menu*/
+.navbar {
+  background-color: rgb(0, 0, 0);
+  height: 80px;
+  display: flex; 
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+  z-index: 999; 
+}
+
+.navbar__container {
+  display: flex;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  height: 80px;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+ 
+
+
+    /*logo*/
+
+    #logo {
+      position: absolute;
+      width: 100px;
+      height: 80px;
+      top: 2%;
+      left: 0;
+      margin: 0 1rem;
+    }
+
+
+    .revital {
+      height: 100vh;
+      width: auto;
+      background: black;
+      background-size: 100vw;
+    }      
         
   
   
