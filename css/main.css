@@ -719,7 +719,7 @@
     .services {
       background: black;
       height: 150vh;
-      display: grid;
+      display: inline-block;
       margin: auto;
     padding: auto;
     }
