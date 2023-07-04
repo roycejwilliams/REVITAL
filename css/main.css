@@ -727,7 +727,9 @@
     .vector2 {
       position: absolute;
       width: 800px;
+      
       height: 1200px;
+      top: 950px;
       left: 28%;
       resize: both;
     }
@@ -758,7 +760,7 @@
       text-align: right;
       position: relative;
       width: 60%;
-      top: 200px;
+      top: 250px;
       float: right;
       margin: 1rem;
      }
