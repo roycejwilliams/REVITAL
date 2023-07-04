@@ -70,11 +70,11 @@
   position: fixed;
   background-color: rgb(0, 0, 0);
   height: 80px;
-    justify-content: space-between;
-    z-index: 1;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 50px;
+  justify-content: space-between;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
 }
 
  
@@ -655,8 +655,6 @@
       position: relative;
       justify-content: center;
       align-items: center;
-      padding: auto;
-      margin: auto;
     }
 
 
@@ -848,21 +846,15 @@
   }
 
    .vector3 {
+    position: absolute;
+    right: 15.5%;
     width: 300px;
     height: 800px;
     filter: drop-shadow(0 4px 4px black);
+    resize: both;
    }
 
-  .vector3-container {
-    position: relative;
-    float: right;
-    justify-content: center;
-    align-content: center;
-    width: 300px;
-    height: 800px;
-    resize: both;
-    right: 220px;
-  }
+ 
 
 
    
@@ -936,13 +928,13 @@
       .word-span {
         height: 100vh;
       }
-      .vector3-container {
+      .vector3 {
         right: 10px;
-        top: 200px;
+        top: 2800px;
       }
 
     .words span{ 
-      top: 3250px;
+      top: 3200px;
       font-size: 50px;
     }
   }
