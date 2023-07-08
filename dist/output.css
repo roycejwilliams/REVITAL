@@ -655,8 +655,7 @@
 @media only screen and (max-width : 768px) {
   .ideas {
     width: 100%;
-    left: 0;
-    white-space: wrap;
+    white-space: wrap !important;
   }
 }
 
@@ -664,7 +663,7 @@
   .ideas {
     width: 100%;
     left: 0;
-    white-space: wrap;
+    white-space: wrap !important;
   }
 
   .mySlides {
@@ -1189,7 +1188,6 @@ input[type="checkbox"]{
   height: 80vh;
   background: linear-gradient(180deg, #000000 , rgba(0, 0, 0, 0.635) 100% );
   overflow: hidden;
-  margin-bottom: -1px;
 }
 
 .news h3 {
