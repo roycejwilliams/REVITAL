@@ -635,9 +635,9 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 480px) {
   .mySlides {
-    width: 300px;
+    width: 250px;
   }
 } 
 
@@ -865,7 +865,7 @@ input[type="checkbox"]{
   -webkit-animation-name: fadeInUp;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 480px) {
   .mission-statement p {
     font-size: 20px;
     padding: 1rem;
@@ -911,7 +911,7 @@ input[type="checkbox"]{
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 480px) {
   .support p, .creative p {
     padding: 1rem;
     font-size: 1rem !important;
@@ -1026,7 +1026,7 @@ input[type="checkbox"]{
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 480px) {
   .words span {
     font-size: 25px;
   }
