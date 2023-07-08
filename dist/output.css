@@ -635,7 +635,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 390px) {
   .mySlides {
     width: 250px;
   }
@@ -865,7 +865,7 @@ input[type="checkbox"]{
   -webkit-animation-name: fadeInUp;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 390px) {
   .mission-statement p {
     font-size: 20px;
     padding: 1rem;
@@ -1018,6 +1018,12 @@ input[type="checkbox"]{
   overflow: hidden;
   width:100%;
   opacity:0;
+}
+
+@media screen and (max-width: 1024px) {
+  .words span {
+    font-size: 55px;
+  }
 }
 
 @media screen and (max-width: 768px) {
