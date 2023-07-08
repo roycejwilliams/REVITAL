@@ -332,6 +332,7 @@
   justify-content: center;
   align-items: center;
   z-index: 999;
+  margin-bottom: -1px;
 }
 
 .navbar__container {
@@ -344,6 +345,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 50px;
+  margin-bottom: -1px;
 }
 
 /*logo*/
@@ -353,6 +355,7 @@
   width: auto;
   background: black;
   background-size: 100vw;
+  margin-bottom: -1px;
 }
 
 /* .landing  {
@@ -658,6 +661,12 @@
 }
 
 @media only screen and (max-width : 430px) {
+  .ideas {
+    width: 100%;
+    left: 0;
+    white-space: wrap;
+  }
+
   .mySlides {
     width: 350px;
   }
@@ -1180,6 +1189,7 @@ input[type="checkbox"]{
   height: 80vh;
   background: linear-gradient(180deg, #000000 , rgba(0, 0, 0, 0.635) 100% );
   overflow: hidden;
+  margin-bottom: -1px;
 }
 
 .news h3 {
@@ -1414,6 +1424,7 @@ input[type=radio] {
 .brand {
   height: 50vh;
   background:  linear-gradient(180deg, rgba(0, 0, 0, 0.635), #000000 30% );
+  margin-bottom: -1px;
 }
 
 .container {
