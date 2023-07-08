@@ -438,7 +438,7 @@
 
 @keyframes glow {
   0% {
-    color: #000000;
+    /* color: #000000; */
     text-shadow: none;
   }
 
@@ -973,7 +973,15 @@ input[type="checkbox"]{
 }
 
 
+@media only screen and (max-width : 1024px) {
+  .support {
+    top: 100px;
+  }
 
+  .creative {
+    top: 200px;
+  }
+}
 
 
 /* Services */
@@ -988,7 +996,6 @@ input[type="checkbox"]{
   height: 800px;
   filter: drop-shadow(0 4px 4px black);
   resize: both;
-  
 }
 
 /* Word Cycle*/
@@ -1073,8 +1080,19 @@ input[type="checkbox"]{
   opacity:0;
 }
 
-.dna {
-  animation: rotate 3s linear infinite;
+@media only screen and (max-width : 1024px) {
+  .vector3 {
+    position: relative;
+    top: 250px;
+  }
+
+  .words {
+    top: 650px;
+  }
+
+  .words span {
+    font-size: 55px;
+  }
 }
 
 
