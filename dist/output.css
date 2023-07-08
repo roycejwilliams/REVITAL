@@ -425,16 +425,16 @@
 }
 
 .flicker {
-  animation: shine 2s forwards, blink 3s 2s infinite;
+  animation: glow 2s forwards, blink 3s 2s infinite;
 }
 
 .fast-flicker {
-  animation: shine 2s forwards, blink 10s 1s infinite;
+  animation: glow 2s forwards, blink 10s 1s infinite;
 }
 
 @keyframes glow {
   0% {
-    /* color: #000000; */
+    color: #000000;
     text-shadow: none;
   }
 
@@ -445,6 +445,8 @@
       0 -0.5rem 2rem #af796d, 0 0.5rem 3rem #c0644f;
   }
 }
+
+
 
 @keyframes flicker {
   from {
@@ -573,7 +575,7 @@
 }
 
 
-/* @keyframes shine{
+@keyframes shine{
   0%{
     background-position: 0
   }
@@ -585,9 +587,9 @@
   100%{
     background-position: 800px
   }
-} */
+}
 
-@keyframes reveal {
+/* @keyframes reveal {
   0% {
     transform: translate(0,100%);
   }
@@ -596,7 +598,7 @@
     transform: translate(0,0);
     opacity: 1;
   }
-}
+} */
 
 .auto {
   animation-duration: 1s;
