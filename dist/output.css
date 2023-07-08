@@ -911,14 +911,14 @@ input[type="checkbox"]{
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 390px) {
   .support p, .creative p {
     padding: 1rem;
     font-size: 1rem !important;
   }
 
   .support h2, .creative h2 {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
 }
 
@@ -1022,19 +1022,25 @@ input[type="checkbox"]{
 
 @media screen and (max-width: 1024px) {
   .words span {
-    font-size: 55px;
+    font-size: 50px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .words span {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 390px) {
+  .vector3 {
+    width: 200px;
+    height: 700px;
+  }
+
   .words span {
     font-size: 25px;
+    top: -50px;
   }
 }
 
