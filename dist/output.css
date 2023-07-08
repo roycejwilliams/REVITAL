@@ -358,13 +358,6 @@
   margin-bottom: -1px;
 }
 
-/* .landing  {
-      position: relative;
-      justify-content: center;
-      align-items: center;
-      margin: auto;
-      padding: auto;
-    } */
 
 .motto {
       animation-name: fadeInUp;
@@ -579,7 +572,8 @@
   }
 }
 
-@keyframes shine{
+
+/* @keyframes shine{
   0%{
     background-position: 0
   }
@@ -591,7 +585,7 @@
   100%{
     background-position: 800px
   }
-}
+} */
 
 @keyframes reveal {
   0% {
