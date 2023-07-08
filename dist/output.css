@@ -663,7 +663,7 @@
   }
 }
 
-@media only screen and (max-width : 430px) {
+@media only screen and (max-width : 480px) {
   .mySlides {
     width: 350px;
   }
@@ -952,7 +952,7 @@ input[type="checkbox"]{
 }
 
 @media only screen 
-  and (max-device-width : 430px) {
+  and (max-device-width : 480px) {
   .mission-statement {
     height: 80vh;
   }
@@ -1024,7 +1024,7 @@ input[type="checkbox"]{
   }
 }
 
-@media only screen and (max-width : 430px) {
+@media only screen and (max-width : 480px) {
   .creative h2, .support h2 {
     font-size: 2rem !important;
   }
@@ -1158,7 +1158,7 @@ input[type="checkbox"]{
   }
 }
 
-@media only screen and (max-width : 430px) {
+@media only screen and (max-width : 480px) {
   .vector3 {
       width: 200px;
       height: 700px;
