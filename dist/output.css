@@ -629,7 +629,17 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .ideas {
+    white-space: wrap;
+  }
+}
 
+@media screen and (max-width: 430px) {
+  .mySlides {
+    width: 300px;
+  }
+} 
 
 
  
@@ -855,7 +865,12 @@ input[type="checkbox"]{
   -webkit-animation-name: fadeInUp;
 }
 
-
+@media screen and (max-width: 430px) {
+  .mission-statement p {
+    font-size: 20px;
+    padding: 1rem;
+  }
+} 
 
 /*services*/
 
@@ -896,6 +911,16 @@ input[type="checkbox"]{
 }
 
 
+@media screen and (max-width: 430px) {
+  .support p, .creative p {
+    padding: 1rem;
+    font-size: 1rem !important;
+  }
+
+  .support h2, .creative h2 {
+    font-size: 2rem !important;
+  }
+}
 
 
 /* Services */
@@ -995,8 +1020,17 @@ input[type="checkbox"]{
   opacity:0;
 }
 
+@media screen and (max-width: 768px) {
+  .words span {
+    font-size: 45px;
+  }
+}
 
-
+@media screen and (max-width: 430px) {
+  .words span {
+    font-size: 25px;
+  }
+}
 
 /*News cycle*/
 
