@@ -953,10 +953,10 @@ input[type="checkbox"]{
 }
 
 @media only screen 
-  and (max-device-width : 430px) {
+  and (max-width : 430px) {
 
     .state-container {
-      bottom: 800px;
+      bottom: 600px;
     }
 
   .mission-statement {
@@ -976,14 +976,6 @@ input[type="checkbox"]{
   margin-bottom: -1px;
 }
 
-/* .vector2 {
-      width: 800px;
-      height: 1200px;
-      resize: both;
-      bottom: 10px;
-      float: right;
-      right: 18px;
-} */
 
 
 .support h2 {
@@ -1401,13 +1393,13 @@ input[type=radio] {
   }
 }
 
-@media all and (min-width: 430px) and (max-width: 768px) {
+@media all and (min-width: 480px) and (max-width: 768px) {
   input {
     left: 260px;
   }
 }
 
-@media all and (max-device-width: 430px) {
+@media all and (max-width: 430px) {
   .news {
     height: 80vh;
   }
