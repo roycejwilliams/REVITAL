@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -82,14 +86,7 @@
 
     /*logo*/
 
-    #logo {
-      position: absolute;
-      width: 100px;
-      height: 80px;
-      top: 2%;
-      left: 0;
-      margin: 0 1rem;
-    }
+
 
 
     .revital {
@@ -99,19 +96,8 @@
       background-size: 100vw;
     }
 
-    .landing  {
-      position: relative;
-      justify-content: center;
-      align-items: center;
-      margin: auto;
-      padding: auto;
-    }
-    
+
     .motto {
-      display: inline-block;
-      margin: auto;
-      padding: auto;
-      width: 100%;
       animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     animation-duration: 1s;
@@ -125,16 +111,9 @@
     opacity: 0;
     }
 
-
     .ideas {
-      position: relative;
-      left: 250px;
-      top: 550px;
-      text-align: center;
       font-family: 'Epilogue', sans-serif;
-      width: 65%;
       filter: drop-shadow(0 4px 4px rgb(10, 10, 10));
-      color: #ffffff;
       background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
     background-position: 0;
     -webkit-background-clip: text;
@@ -142,22 +121,23 @@
     animation: shine 4s infinite linear;
     animation-fill-mode: forwards;
     -webkit-text-size-adjust: none;
-    font-weight: 400;
-    font-size: 20px;
     text-decoration: none;
     white-space: nowrap;
-    
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 1.5s;
+    opacity: 0;
   }
 
   .sign {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translate(-50%, -50%);
     letter-spacing: 2;
-    left: 50%;
-    top: 650px;
     font-family: 'Epilogue', sans-serif;
     text-transform: uppercase;
     font-size: 6em;
@@ -166,6 +146,17 @@
       -0.2rem 0.1rem 1rem #6a3d33, 0.2rem 0.1rem 1rem #EB8771,
       0 -0.5rem 2rem #af796d, 0 0.5rem 3rem #c0644f;
     animation: glow 2s forwards, flicker 3s infinite;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 1.5s;
+    opacity: 0;
   }
 
   
@@ -203,7 +194,7 @@
   
   @keyframes glow {
     0% {
-      color: #6b1839;
+      color: #000000;
       text-shadow: none;
     }
     100% {
@@ -366,12 +357,6 @@
     }
 
     .auto {
-      display: flex;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      top: 250px;
-      width: 100%;
       animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     animation-duration: 1s;
@@ -716,64 +701,46 @@
     
 
     /*services*/
-    .services {
-      background: black;
-      height: 150vh;
-      display: inline-block;
-      margin: auto;
-    padding: auto;
-    }
+  .services {
+    height: 150vh;
+  }
+
 
     .vector2 {
-      position: absolute;
+      /* position: absolute;
       width: 800px;
-      
       height: 1200px;
       top: 950px;
       left: 28%;
-      resize: both;
+      resize: both; */
     }
 
      .support {
       color: white;
-      width: 60%;
-      position: relative;
-      margin: 1rem;
      }
 
      .support h2 {
-      font-size: 60px;
       font-family: 'Epilogue';
       text-transform: uppercase;
       font-weight: 300;
-      width: 50%;
      }
 
      .support p {
-      font-size: 28px;
       font-family: 'IBM Plex Mono', monospace;
       font-weight: 300;
      }
 
      .creative {
       color: white;
-      text-align: right;
-      position: relative;
-      width: 60%;
-      top: 250px;
-      float: right;
-      margin: 1rem;
      }
 
      .creative h2 {
-      font-size: 60px;
       font-family: 'Epilogue';
     text-transform: uppercase;
     font-weight: 300;
      }
 
      .creative p {
-      font-size: 28px;
       font-family: 'IBM Plex Mono', monospace;
       font-weight: 300;
      }
@@ -781,81 +748,21 @@
 
      
 
-     @media (max-width : 1024px) {
-      .services {
-        height: 100vh;
-      }
-
-      .vector2 {
-        left: 20%;
-        top: 1460px;
-      }
-
-      .support h2, .creative h2 {
-        font-size: 40px;
-      }
-
-      .support p, .creative p {
-        font-size: 26px;
-      }
-
-      .support {
-        top: 50px;
-      }
-
-      .creative {
-        top: 280px;
-      }
-
-    }
-
+     
     
-    @media only screen 
-    and (min-device-width : 430px) 
-    and (max-device-width : 768px) {
-
-      .services {
-        height: 100vh;
-      }
-
-      .vector2 {
-        top: 2330px;
-        left: 20%;
-        height: 100%;
-      }
-
-      .support {
-        bottom: -65px;
-      }
-
-      .support p {
-        font-size: 24px;
-        width: 250%;
-      }
-
-      .creative {
-        top: 420px;
-        right: 50px;
-      }
-    }
-
-    @media only screen 
-  and (max-device-width : 430px) {
-
     
-
-  } 
  
 
    /* Services */
 
   .word-span {
-    height: 100vh;
+    height: 120vh;
     background-color: black;
   }
 
    .vector3 {
     position: relative;
+    top: 100px;
     float: right;
     right: 225px;
     width: 300px;
@@ -882,9 +789,8 @@
     font-size: 65px;
     font-family: 'Epilogue';
     text-transform: uppercase;
-    left: 5%;
-    top: 2100px;
-
+    margin-left: 3rem;
+    top: 3400px;
   }
   .words2{
     white-space:nowrap;
@@ -933,58 +839,7 @@
 
   
 
-  @media (max-width : 1024px) {   
-
-      .word-span {
-        height: 100vh;
-      }
-      .vector3 {
-        right: 10px;
-        top: 200px;
-      }
-
-    .words span{ 
-      top: 3300px;
-      font-size: 50px;
-    }
-  }
-
-  @media only screen 
-    and (min-device-width : 430px) 
-    and (max-device-width : 768px) {
-      .word-span {
-        height: 80vh;
-      }
-
-      .vector3 {
-        top: 3500px;
-        right: 2%;
-        width: 200px;
-        overflow-x: hidden;
-      }
-
-      .words span{ 
-        font-size: 40px;
-        left: 5%;
-        top: 4000px;
-        width: 20%;
-      }
-    }
-
-    @media only screen 
-  and (max-device-width : 430px) {
-    .word-span {
-      height: 90vh;
-    }
-
-    .vector3 {
-      width: 150px;
-    }
-
-    .words span {
-      font-size: 20px;
-    }
-  }
+ 
 
   /*News cycle*/
   .news {
