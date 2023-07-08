@@ -345,7 +345,6 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 50px;
-  margin-bottom:-1px
 }
 
 /*logo*/
@@ -634,9 +633,6 @@
 }
 
 @media only screen and (max-width : 1024px) {
-  .revital {
-    margin-bottom: -1px;
-  }
 
   .ideas {
     left: 100px;
