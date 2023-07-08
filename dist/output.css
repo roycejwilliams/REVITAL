@@ -1401,7 +1401,11 @@ input[type=radio] {
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-device-width: 480px) {
+  .news {
+    height: 80vh;
+  }
+
   .news h3 {
     font-size: 2rem;
   }
