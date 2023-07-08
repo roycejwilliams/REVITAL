@@ -656,6 +656,7 @@
   .ideas {
     width: 100%;
     white-space: wrap !important;
+    left: 0;
   }
 }
 
