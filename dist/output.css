@@ -951,7 +951,7 @@ input[type="checkbox"]{
   and (max-device-width : 480px) {
 
     .state-container {
-      bottom: 300px;
+      bottom: 800px;
     }
 
   .mission-statement {
@@ -1163,10 +1163,11 @@ input[type="checkbox"]{
   .vector3 {
       width: 200px;
       height: 700px;
+      top: 0;
   }
 
   .words {
-    top: 600px;
+    top: 400px;
   }
 
   .words span {
