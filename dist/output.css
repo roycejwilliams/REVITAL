@@ -623,8 +623,8 @@
 @media screen and (max-width: 1024px) {
   #logo {
     position: relative;
-    top: 5px;
-    right: 40px;
+    top: 2px;
+    right: 38px;
   }
 }
 
