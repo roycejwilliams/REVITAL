@@ -2503,11 +2503,25 @@ h2 {
 
 @media screen and (max-width: 1024px) {
   .product {
-    left: 5%;
+    top: 10%;
+    left: 20%;
+    width: 65%;
+    text-align: center;
   }
 
   .contact {
-    right: 5%;
+    right: 20%;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  iframe {
+    display: none;
+  }
+
+  .wrapper ul {
+    left: 50%;
   }
 }
 
