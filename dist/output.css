@@ -831,6 +831,7 @@ input[type="checkbox"]{
    iframe {
     width: 200px;
     height: 300px;
+    display: none;
    }
 }
 
