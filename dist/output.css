@@ -358,6 +358,12 @@
   margin-bottom: -1px;
 }
 
+#logo {
+  position: relative;
+  right: 28px;
+  top: 1px;
+}
+
 
 .motto {
       animation-name: fadeInUp;
