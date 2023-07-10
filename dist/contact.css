@@ -2499,7 +2499,7 @@ h2 {
 @media screen and (max-width: 430px) {
   .info {
     flex-direction: column;
-    top: 0px;
+    top: 50px;
   }
 
   .product {
@@ -2508,6 +2508,10 @@ h2 {
     padding: 1rem;
     font-size: 1rem;
     line-height: 30px;
+  }
+
+  .contact ul {
+    left: 5px;
   }
 
   .contact {
