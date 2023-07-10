@@ -589,16 +589,7 @@
   }
 }
 
-/* @keyframes reveal {
-  0% {
-    transform: translate(0,100%);
-  }
 
-  100% {
-    transform: translate(0,0);
-    opacity: 1;
-  }
-} */
 
 .auto {
   animation-duration: 1s;
@@ -644,7 +635,7 @@
 
   .sign {
     position: relative;
-    top: 50px;
+    bottom: 250px;
   }
 
   .mySlides {
@@ -1140,6 +1131,10 @@ input[type=radio] {
 
 
 @media screen and (max-width: 430px) {
+  .cards {
+    right: 0;
+  }
+
   .picture {
     width: 250px;
     height: 250px;
