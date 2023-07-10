@@ -2508,7 +2508,12 @@ h2 {
     width: 100%;
     text-align: center;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 0.6rem;
+  }
+
+  .contact {
+    width: 200px;
+    height: 200px;
   }
 
   iframe {
