@@ -2411,9 +2411,11 @@ h2 {
 /* Mobile */
 
 .info {
-  display: flex;
   position: relative;
   top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   animation-duration: 1s;
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
@@ -2425,25 +2427,24 @@ h2 {
 }
 
 .product {
-  position: absolute;
+  position: relative;
   color: white;
   filter: drop-shadow(0 4px 4px rgba(255, 255, 255, 0.704));
   font-family: 'Epilogue', sans-serif;
-  top: 30%;
   width: 40%;
   font-size: 1.3rem;
   line-height: 40px;
-  left: 15%;
 }
 
 .contact {
-  position: absolute;
-  right: 20%;
-  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   color: white;
   animation: gradient 1s ease infinite;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   padding: 1rem 1rem;
   border-radius: 20px;
   filter: drop-shadow(0 10px 10px rgb(0, 0, 0));
@@ -2475,55 +2476,37 @@ h2 {
   }
 }
 
-.contact h4 {
-  position: relative;
-  top: 20%;
-  margin: 1rem 0;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  font-family: 'Epilogue', sans-serif;
-  font-weight: 600;
-}
-
 .contact ul {
   list-style: none;
-  position: relative;
-  top: 70px;
-  left: 12px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10px;
 }
 
 .contact li {
   font-size: 2rem;
   margin: 0 0.5rem;
+  height: 60px;
+  width: 60px;
+  color: rgb(255, 255, 255);
 }
 
 .contact li a {
   color: white;
 }
 
-@media screen and (max-width: 1024px) {
-  .product {
-    left: 5%;
-  }
-
-  .contact {
-    right: 5%;
-  }
-}
-
-
 
 @media screen and (max-width: 430px) {
-  .product {
-    left: 10%;
-    width: 80%;
-    text-align: center;
-    padding: none;
+  .info {
+    flex-direction: column;
   }
 
-  .contact {
-    right: 25%;
+  .product {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
   }
 
   iframe {
