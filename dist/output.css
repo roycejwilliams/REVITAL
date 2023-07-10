@@ -636,6 +636,10 @@
 }
 
 @media screen and (max-width: 430px) {
+  .ideas {
+    white-space: wrap;
+  }
+
   .mySlides {
     width: 250px;
   }
