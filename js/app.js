@@ -137,3 +137,8 @@ animateOnScroll();
 function loaded() {
   document.body.classList.add('loaded');
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  var video = document.getElementsByClassName('picture');
+  video.play();
+});
