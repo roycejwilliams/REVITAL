@@ -833,6 +833,10 @@ input[type="checkbox"]{
     height: 300px;
     display: none;
    }
+
+   .wrapper ul {
+    left: 50%;
+   }
 }
 
 
