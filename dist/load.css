@@ -1967,10 +1967,6 @@
   content: var(--tw-content) !important;
 }
 
-.\[a-zA-Z0-9\:\\\\-\\\\\._\$\] {
-  a-z-a--z0-9: \\-\\. $;
-}
-
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -2210,24 +2206,21 @@ input[type="checkbox"]{
   transform: translateX(-100px);
 }
 
-@media only screen 
-        and (min-device-width : 768px) 
-        and (max-device-width : 1024px) {
+@media screen and (max-width: 1024px) {
+  iframe {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  iframe {
+   width: 200px;
+   height: 300px;
+   display: none;
+  }
+
   .wrapper ul {
-    top: 60%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-  }
-
-  .wrapper ul li a{
-    font-size: 50px;
-  }
-
-  iframe  {
-    display: none;
-    width: 400px;
-    height: 400px;
-    left: 10%;
+   left: 50%;
   }
 }
 
