@@ -2482,12 +2482,11 @@ h2 {
   justify-content: center;
   align-items: center;
   position: relative;
-  left: 10px;
 }
 
 .contact li {
   font-size: 2rem;
-  margin: 0 0.5rem;
+  margin: 0 1rem;
   color: rgb(255, 255, 255);
 }
 
