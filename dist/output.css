@@ -1188,6 +1188,12 @@ input[type=radio] {
   top: 100px;
 }
 
+@media screen and (max-width: 430px) {
+  .player {
+    top: 50px;
+  }
+}
+
 .upper-part {
   position: relative;
   display: flex;
