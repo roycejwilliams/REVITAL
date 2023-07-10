@@ -542,6 +542,15 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
     color: white;
   }
 
+  @media screen and (max-width: 1024px) {
+    .product {
+      left: 5%;
+    }
+
+    .contact {
+      right: 5%;
+    }
+  }
   
   .footer {
     position: absolute;
