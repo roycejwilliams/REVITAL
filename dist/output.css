@@ -960,6 +960,10 @@ input[type="checkbox"]{
   .support h2, .creative h2 {
     font-size: 1.5rem !important;
   }
+
+  .creative {
+    top: 50px;
+  }
 }
 
 
