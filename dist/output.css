@@ -635,7 +635,7 @@
 
   .sign {
     position: relative;
-    bottom: 250px;
+    bottom: 450px;
   }
 
   .mySlides {
@@ -1136,8 +1136,8 @@ input[type=radio] {
   }
 
   .picture {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
 }
 
