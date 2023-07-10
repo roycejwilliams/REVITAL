@@ -637,7 +637,14 @@
 
 @media screen and (max-width: 430px) {
   .ideas {
+    position: relative;
+    bottom: 150px;
     white-space: normal;
+  }
+
+  .sign {
+    position: relative;
+    bottom: 80px;
   }
 
   .mySlides {
@@ -1074,6 +1081,13 @@ input[type="checkbox"]{
   margin: 1rem;
 }
 
+@media screen and (max-width: 430px) {
+  .news h3 {
+    font-size: 2rem;
+    left: 2%;
+  }
+}
+
 input[type=radio] {
   display: none;
 }
@@ -1338,7 +1352,7 @@ input[type=radio] {
 
 @media screen and (max-width: 430px) {
   .element {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }  
 }
 
