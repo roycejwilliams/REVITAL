@@ -1084,6 +1084,7 @@ input[type="checkbox"]{
 
   .words span {
     font-size: 18px;
+    font-weight: 500;
     top: -50px;
     margin-left: 0rem;
   }
