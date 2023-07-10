@@ -2451,6 +2451,7 @@ h2 {
   background-size: 600% 100%;
   animation: gradient 8s linear infinite;
   animation-direction: alternate;
+  resize: both;
 }
 
 @keyframes fadeInUp {
@@ -2503,19 +2504,28 @@ h2 {
 
 @media screen and (max-width: 1024px) {
   .product {
-    top: 10%;
-    left: 20%;
-    width: 65%;
-    text-align: center;
+    left: 5%;
   }
 
   .contact {
-    right: 20%;
-    top: 50%;
+    right: 5%;
   }
 }
 
+
+
 @media screen and (max-width: 430px) {
+  .product {
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    padding: none;
+  }
+
+  .contact {
+    right: 25%;
+  }
+
   iframe {
     display: none;
   }
