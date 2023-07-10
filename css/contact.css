@@ -89,14 +89,6 @@
 
     /*logo*/
 
-    #logo {
-      position: absolute;
-      width: 100px;
-      height: 80px;
-      top: 2%;
-      left: 0;
-      margin: 0 1rem;
-    }
 
   .wrapper{
     overflow: hidden;
@@ -417,6 +409,8 @@ transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
   /*Tablet*/
   @media screen and (max-width: 1024px) {
     .overlap-group1 {
+      left: 0;
+      resize: both;
       display: none;
     }
   }

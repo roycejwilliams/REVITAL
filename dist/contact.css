@@ -2063,15 +2063,6 @@
 
 /*logo*/
 
-#logo {
-  position: absolute;
-  width: 100px;
-  height: 80px;
-  top: 2%;
-  left: 0;
-  margin: 0 1rem;
-}
-
 .wrapper{
   overflow: hidden;
   scroll-behavior: none;
@@ -2264,12 +2255,6 @@ input[type="checkbox"]{
   transform: translateX(-100px);
 }
 
-@media screen and (max-width: 1024px) {
-  iframe {
-    left: 5%;
-  }
-}
-
 h2 {
   position: absolute;
   top: 100%;
@@ -2399,6 +2384,8 @@ h2 {
 
 @media screen and (max-width: 1024px) {
   .overlap-group1 {
+    left: 0;
+    resize: both;
     display: none;
   }
 }
@@ -2494,6 +2481,16 @@ h2 {
 
 .contact li a {
   color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .product {
+    left: 5%;
+  }
+
+  .contact {
+    right: 10%;
+  }
 }
 
 .footer {
