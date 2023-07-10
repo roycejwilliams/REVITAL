@@ -2037,6 +2037,12 @@
   background-color: black;
 }
 
+#logo {
+  position: relative;
+  right: 32px;
+  top: 1px;
+}
+
 /*menu*/
 
 .navbar {
@@ -2253,12 +2259,6 @@ input[type="checkbox"]{
   /* easeOutBackを緩めた感じ */
   transition-delay: .6s;
   transform: translateX(-100px);
-}
-
-@media screen and (max-width: 1024px) {
-  iframe {
-    left: 5%;
-  }
 }
 
 h2 {
@@ -2487,18 +2487,6 @@ h2 {
 
 .contact li a {
   color: white;
-}
-
-@media screen and (max-width: 1024px) {
-  .product {
-    left: 5%;
-    font-size: 1.6rem;
-    width: 50%;
-  }
-
-  .contact {
-    right: 10%;
-  }
 }
 
 .footer {

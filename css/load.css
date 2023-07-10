@@ -65,13 +65,17 @@
     /*logo*/
 
     .revital {
-      height: 100vh;
+      height: 90vh;
       width: auto;
       background: black;
       background-size: 100vw;
     }      
         
-  
+    #logo {
+      position: relative;
+      right: 28px;
+      top: 1px;
+    }
   
       /*menu*/
   

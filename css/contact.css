@@ -63,6 +63,12 @@
   background-color: black;
 }
 
+#logo {
+  position: relative;
+  right: 28px;
+  top: 1px;
+}
+
 /*menu*/
 .navbar {
   background-color: rgb(0, 0, 0);
