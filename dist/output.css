@@ -620,6 +620,14 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  #logo {
+    position: relative;
+    top: 5px;
+    right: 40px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .ideas {
     white-space: normal;
@@ -629,6 +637,7 @@
 @media screen and (max-width: 430px) {
   #logo {
     position: relative;
+    top: 5px;
     right: 30px;
   }
 
