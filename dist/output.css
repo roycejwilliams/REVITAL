@@ -631,13 +631,13 @@
 
 @media screen and (max-width: 768px) {
   .ideas {
-    white-space: wrap;
+    white-space: normal;
   }
 }
 
 @media screen and (max-width: 430px) {
   .ideas {
-    white-space: wrap;
+    white-space: normal;
   }
 
   .mySlides {
@@ -822,6 +822,13 @@ input[type="checkbox"]{
   iframe {
     left: 5%;
   }
+}
+
+@media screen and (max-width: 430px) {
+   iframe {
+    width: 200px;
+    height: 300px;
+   }
 }
 
 
@@ -1326,6 +1333,12 @@ input[type=radio] {
   .arrow-right {
     display: none;
   }
+}
+
+@media screen and (max-width: 430px) {
+  .element {
+    font-size: 3rem;
+  }  
 }
 
 .footer {
