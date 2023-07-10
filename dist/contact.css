@@ -2486,6 +2486,8 @@ h2 {
 @media screen and (max-width: 1024px) {
   .product {
     left: 5%;
+    font-size: 2rem;
+    width: 60%;
   }
 
   .contact {
