@@ -942,6 +942,7 @@ input[type="checkbox"]{
     font-size: 3rem !important;
   }
 
+
 }
 
 
@@ -953,6 +954,11 @@ input[type="checkbox"]{
 
   .support h2, .creative h2 {
     font-size: 1.5rem !important;
+  }
+
+  .creative {
+    position: relative;
+    bottom: 80px;
   }
 }
 
