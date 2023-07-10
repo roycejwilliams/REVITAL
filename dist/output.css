@@ -345,10 +345,10 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 50px;
-  margin-bottom: -1px;
 }
 
 /*logo*/
+
 
 .revital {
   height: 100vh;
@@ -627,6 +627,11 @@
 }
 
 @media screen and (max-width: 430px) {
+  #logo {
+    position: relative;
+    right: 30px;
+  }
+
   .ideas {
     position: relative;
     bottom: 130px;
