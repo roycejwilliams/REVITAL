@@ -1138,6 +1138,14 @@ input[type=radio] {
      object-fit: cover;
 }
 
+
+@media screen and (max-width: 430px) {
+  .picture {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 #item-1:checked ~ .cards #song-4,
   #item-2:checked ~ .cards #song-5,
   #item-3:checked ~ .cards #song-1,
