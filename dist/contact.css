@@ -2389,6 +2389,12 @@ h2 {
 /*Tablet*/
 
 @media screen and (max-width: 1024px) {
+  #logo {
+    position: relative;
+    right: 28px;
+    top: 1px;
+  }
+
   .overlap-group1 {
     left: 0;
     resize: both;
