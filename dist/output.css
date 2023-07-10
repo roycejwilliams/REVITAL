@@ -638,13 +638,13 @@
 @media screen and (max-width: 430px) {
   .ideas {
     position: relative;
-    bottom: 150px;
+    bottom: 130px;
     white-space: normal;
   }
 
   .sign {
     position: relative;
-    bottom: 80px;
+    bottom: 120px;
   }
 
   .mySlides {
