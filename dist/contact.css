@@ -2488,8 +2488,6 @@ h2 {
 .contact li {
   font-size: 2rem;
   margin: 0 0.5rem;
-  height: 60px;
-  width: 60px;
   color: rgb(255, 255, 255);
 }
 
@@ -2512,8 +2510,12 @@ h2 {
   }
 
   .contact {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .contact li {
+    margin: 0;
   }
 
   iframe {
