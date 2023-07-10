@@ -2492,7 +2492,7 @@ h2 {
 @media screen and (max-width: 1024px) {
   .product {
     left: 5%;
-    font-size: 2rem;
+    font-size: 1.6rem;
     width: 60%;
   }
 
