@@ -987,6 +987,7 @@ input[type="checkbox"]{
 }
 
 .vector3 {
+
   width: 300px;
   height: 800px;
   filter: drop-shadow(0 4px 4px black);
@@ -1106,7 +1107,6 @@ input[type="checkbox"]{
 .news {
   height: 80vh;
   background: linear-gradient(180deg, #000000 , rgba(0, 0, 0, 0.635) 100% );
-  overflow: hidden;
 }
 
 .news h3 {
@@ -1145,7 +1145,7 @@ input[type=radio] {
 
 .container {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
   max-height: 600px;
   transform-style: preserve-3d;
   justify-content: center;
@@ -1170,7 +1170,7 @@ input[type=radio] {
   width: 100%;
   height: 100%;
   bottom: 100px;
-  left: 200px;
+  left: 100px;
 }
 
 .picture {
