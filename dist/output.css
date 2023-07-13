@@ -1137,7 +1137,6 @@ input[type=radio] {
   max-width: 800px;
   max-height: 600px;
   transform-style: preserve-3d;
-  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -1148,6 +1147,13 @@ input[type=radio] {
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
   opacity: 0;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  color: #FFF;
+  position: relative;
+  top: 30%;
 }
 
 .cards {
@@ -1328,15 +1334,14 @@ input[type=radio] {
   margin-bottom: -1px;
 }
 
-.container {
+.brand-container {
   width: 300px;
   height: 300px;
-  margin: 0 auto;
+  margin: 0rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #FFF;
-  margin-bottom: 30px;
   position: relative;
   top: 30%;
 }
