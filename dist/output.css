@@ -1072,7 +1072,7 @@ input[type="checkbox"]{
 
 @media screen and (max-width: 1024px) {
   .words span {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 
