@@ -1184,7 +1184,7 @@ input[type=radio] {
 
 @media screen and (max-width: 430px) {
   .cards {
-    left: 45px;
+    left: 65px;
   }
 
   .picture {
