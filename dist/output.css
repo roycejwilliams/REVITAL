@@ -976,6 +976,8 @@ input[type="checkbox"]{
 }
 
 .vector3 {
+  position: relative;
+  bottom: 150px;
   width: 300px;
   height: 800px;
   filter: drop-shadow(0 4px 4px black);
@@ -987,7 +989,7 @@ input[type="checkbox"]{
 .words{
   color: #fff;
   position: relative;
-  top: 400px;
+  top: 200px;
 }
 
 .words span{
