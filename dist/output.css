@@ -1086,7 +1086,7 @@ input[type="checkbox"]{
     font-size: 18px;
     font-weight: 500;
     top: -50px;
-    margin-left: 0rem;
+    margin-left: 0 1rem;
   }
 }
 
@@ -1095,7 +1095,7 @@ input[type="checkbox"]{
 .news {
   height: 80vh;
   background: linear-gradient(180deg, #000000 , rgba(0, 0, 0, 0.635) 100% );
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .news h3 {
