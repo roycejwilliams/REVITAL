@@ -1085,10 +1085,9 @@ input[type="checkbox"]{
   }
 
   .words span {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
-    top: 0px;
-    margin-left: 0 0.5rem;
+    margin: none;
   }
 }
 
