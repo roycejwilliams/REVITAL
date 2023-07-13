@@ -860,6 +860,8 @@ input[type="checkbox"]{
 .mission-statement {
   background: black;
   height: 100vh;
+  margin-bottom: -1px;
+
 }
 
 .state-container {
@@ -910,7 +912,7 @@ input[type="checkbox"]{
 
 .services {
   height: 100vh;
-  margin-bottom: 0px;
+  margin-bottom: -1px;
 }
 
 .support h2 {
