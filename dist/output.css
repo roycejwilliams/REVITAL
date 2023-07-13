@@ -975,6 +975,11 @@ input[type="checkbox"]{
   margin-bottom:-1px
 }
 
+.word-container  {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .vector-container {
   position: relative;
   float: right;
