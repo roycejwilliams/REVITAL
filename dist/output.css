@@ -432,10 +432,12 @@
 
 .flicker {
   animation: glow 2s forwards, blink 3s 2s infinite;
+  overflow: visible;
 }
 
 .fast-flicker {
   animation: glow 2s forwards, blink 10s 1s infinite;
+  overflow: visible;
 }
 
 @keyframes glow {
