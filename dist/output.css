@@ -860,8 +860,6 @@ input[type="checkbox"]{
 .mission-statement {
   background: black;
   height: 100vh;
-  margin-bottom: -1px;
-
 }
 
 .state-container {
@@ -989,7 +987,6 @@ input[type="checkbox"]{
 }
 
 .vector3 {
-
   width: 300px;
   height: 800px;
   filter: drop-shadow(0 4px 4px black);
@@ -1109,6 +1106,7 @@ input[type="checkbox"]{
 .news {
   height: 80vh;
   background: linear-gradient(180deg, #000000 , rgba(0, 0, 0, 0.635) 100% );
+  overflow: hidden;
 }
 
 .news h3 {
@@ -1190,8 +1188,8 @@ input[type=radio] {
   }
 
   .picture {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
   }
 }
 
