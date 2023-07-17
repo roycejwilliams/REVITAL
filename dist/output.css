@@ -984,6 +984,7 @@ input[type="checkbox"]{
   position: relative;
   float: right;
   bottom: 150px;
+  resize: both;
 }
 
 .vector3 {
