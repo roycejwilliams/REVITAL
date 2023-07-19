@@ -1089,10 +1089,10 @@ input[type="checkbox"]{
 }
 
 @media screen and (max-width: 430px) {
-  .vector3 {
+  /* .vector3 {
     width: 150px;
     height: 650px;
-  }
+  } */
 
   .words span {
     font-size: 18.5px;
