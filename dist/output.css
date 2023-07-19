@@ -991,7 +991,6 @@ input[type="checkbox"]{
   width: 300px;
   height: 800px;
   filter: drop-shadow(0 4px 4px black);
-  resize: both;
 }
 
 /* Word Cycle*/
@@ -1090,8 +1089,7 @@ input[type="checkbox"]{
 
 @media screen and (max-width: 430px) {
   .vector3 {
-    width: 150px;
-    height: 650px;
+    resize: both;
   }
 
   .words span {
