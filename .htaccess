@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !close\.html$ [NC]
+RewriteCond %{REQUEST_URI} !\.(jpg|jpeg|png|gif|css|ico)$ [NC]
+RewriteRule ^(.*)$ http://rvtl.studio/close.html [R=302,L]

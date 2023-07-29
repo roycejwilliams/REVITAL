@@ -2031,8 +2031,24 @@
 .revital {
   height: 100vh;
   width: auto;
-  background: black;
-  background-size: 100vw;
+  background: linear-gradient(45deg,#9e4e36, #8e264d, #23a6d5, #23d5ab);
+  background-size: 600% 100%;
+  animation: gradient 8s linear infinite;
+  animation-direction: alternate;
+  resize: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%
+  }
+
+  100% {
+    background-position: 100%
+  }
 }
 
 /*menu*/
@@ -2224,10 +2240,21 @@ input[type="checkbox"]{
   }
 }
 
-h2 {
-  position: absolute;
-  top: 55%;
-  left: 43%;
+.revital-container {
+  width: 650px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.revital-container img {
+  resize: both;
+  width: 400px;
+}
+
+.revital-container h2 {
   font-family: 'Epilogue', sans-serif;
   font-weight: 300;
   color: white;
@@ -2240,23 +2267,36 @@ h2 {
   -webkit-animation-name: fadeInUp;
   animation-delay: 2s;
   opacity: 0;
+
 }
 
-@media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px) {
-  h2 {
-    font-size: 2rem;
-    left: 38%;
+.revital-container p {
+  color: white;
+  font-family: 'Epilogue', sans-serif;
+  margin: 1rem;
+  font-size: 16px;
+  text-decoration: none;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+@media screen and (max-width: 430px) {
+  .revital-container img {
+    width: 300px;
+  }
+
+  .revital-container p {
+    font-size: 10px;
   }
 }
 
-@media only screen 
-  and (max-device-width : 430px) {
-  h2 {
-    left: 30%;
-  }
-}
+
 
 #logo {
   position: relative;
@@ -2327,14 +2367,14 @@ h2 {
   }
 }
 
-.footer {
+footer {
   position: absolute;
   width: 100%;
   height: 80px;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #000000;
+  background-color: transparent;
 }
 
 .footer-content {
