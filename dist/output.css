@@ -1568,6 +1568,7 @@ input[type=radio] {
   left: 0;
   right: 0;
   background-color: #000000;
+  margin-bottom: -1px;
 }
 
 .footer-content {
