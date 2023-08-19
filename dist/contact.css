@@ -2412,7 +2412,6 @@ input[type="checkbox"]{
 }
 
 .footer {
-  position: absolute;
   width: 100%;
   height: 80px;
   bottom: 0;
@@ -2435,76 +2434,32 @@ input[type="checkbox"]{
   top: 50px;
 }
 
-@media (min-width: 640px) {
-  .sm\:container {
-    width: 100%;
+.animate-element {
+  opacity: 0;
+  animation: fade-in 1s ease-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
   }
 
-  @media (min-width: 640px) {
-    .sm\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .sm\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .sm\:container {
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .sm\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .sm\:container {
-      max-width: 1536px;
-    }
+  100% {
+    opacity: 1;
   }
 }
 
-.hover\:font-bold:hover {
-  font-weight: 700 !important;
+.content {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: all 1s ease;
+  transition-delay: 0.5s;
 }
 
-.before\:hover\:text-center:hover::before {
-  content: var(--tw-content) !important;
-  text-align: center !important;
-}
-
-.hover\:before\:text-center:hover::before {
-  content: var(--tw-content) !important;
-  text-align: center !important;
-}
-
-.focus\:hover\:text-center:hover:focus {
-  text-align: center !important;
-}
-
-.hover\:focus\:text-center:focus:hover {
-  text-align: center !important;
-}
-
-@media (min-width: 640px) {
-  .sm\:underline {
-    text-decoration-line: underline !important;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  @media (min-width: 1024px) {
-    .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
-      paint-order: markers;
-    }
-  }
+.loaded .header,
+.loaded .content {
+  opacity: 1;
+  transform: translateX(0);
 }
 
   
