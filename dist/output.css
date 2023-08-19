@@ -880,14 +880,14 @@ input[type="checkbox"]{
   }
 
   .wrapper ul {
-    bottom: 350px;
+    bottom: 250px;
   }
 
   iframe {
     width: 350px;
-    height: 500px;
+    height: 400px;
     top: 300px;
-    left: 30px;
+    left: 20px;
 }
 
 .wrapper ul li {
@@ -1377,7 +1377,8 @@ input[type=radio] {
 
 @media screen and (max-width: 430px) {
   .player {
-    top: 250px;
+    position: relative;
+    bottom: 50px;
   }
 }
 
