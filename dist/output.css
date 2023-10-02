@@ -1385,7 +1385,7 @@ input[type=radio] {
 @media screen and (max-width: 430px) {
   .player {
     position: relative;
-    bottom: 20px;
+    bottom: 35px;
   }
 }
 
